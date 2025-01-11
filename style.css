@@ -3,12 +3,18 @@
     margin: 0;
 
 }
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 .navber{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1536px;
-    margin: 0 auto;
+    /* width: 1536px;
+    margin: 0 auto; */
+    margin-top: 24px;
+    margin-bottom: 40px;
 }
 .header-title{
 color: rgb(14, 14, 14);
@@ -18,18 +24,24 @@ font-weight: 700;
 line-height: 38px;
 letter-spacing: 0%;
 text-align: left;
-padding: 24px 160px;
 }
-.sign-in{
-    padding: 24px 160px;
-}
+
 .sign-in-btn{
-box-sizing: border-box;
-padding: 10px 20px;
-border: 1px solid rgb(0, 106, 80);
-border-radius: 8px;
-width: 160px;
-height: 52px;
+    width: 116px;
+    height: 52px;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 12px 25px 12px 25px;
+
+
 }
 .sign-in-btn:hover{
     background-color:rgb(3, 87, 66) ;
@@ -40,8 +52,8 @@ height: 52px;
     justify-content: space-around;
     align-items: center;
     background-color:rgb(198, 228, 214);
-    width: 1220px;
-    margin:0 auto;
+    /* width: 1220px;
+    margin:0 auto; */
     border-radius: 24px;
     
 }
@@ -91,4 +103,54 @@ padding: 20px;
 }
 .explore{
     margin-left: 20px;
+}
+.pillars{
+    text-align: left;
+    margin-top: 50px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+
+    
+}
+.future{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.future1{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    height: 250px;
+    width: 350px;
+    padding: 20px;
+
+   
+}
+.h{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 10px;
+}
+.text{
+margin-top: 5px;
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+
 }
