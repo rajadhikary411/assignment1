@@ -1,21 +1,27 @@
 *{
     padding: 0;
     margin: 0;
+
 }
-header{
+.navber{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 160px;
+    width: 1536px;
+    margin: 0 auto;
 }
 .header-title{
-    color: rgb(14, 14, 14);
+color: rgb(14, 14, 14);
 font-family: Fira Sans;
 font-size: 32px;
 font-weight: 700;
 line-height: 38px;
 letter-spacing: 0%;
 text-align: left;
+padding: 24px 160px;
+}
+.sign-in{
+    padding: 24px 160px;
 }
 .sign-in-btn{
 box-sizing: border-box;
@@ -28,4 +34,61 @@ height: 52px;
 .sign-in-btn:hover{
     background-color:rgb(3, 87, 66) ;
     color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(198, 228, 214);
+    width: 1220px;
+    margin:0 auto;
+    border-radius: 24px;
+    
+}
+.paragraph{
+  
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+.img1{
+
+}
+
+.cont-title{
+padding: 20px;
+color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.idea{
+    margin-top: -15px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 45px;
+font-weight: 700;
+line-height: 55px;
+letter-spacing: 0%;
+text-align: left;
+padding: 20px;
+}
+.explore-btn{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    width: 210px;
+    height: 56px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    color: white;
+    font-family: fira sans;
+}
+.explore-btn:hover{
+    background-color: rgb(49, 163, 135);
+}
+.explore{
+    margin-left: 20px;
 }
