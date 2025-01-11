@@ -552,4 +552,30 @@ padding: 21px;
 }
 .subscribe:hover{
     background-color: rgb(1, 68, 51);
+    
+}
+footer{
+  width: 800px;
+  margin: 100px auto;
+  text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.facebook,.instra.x{
+    width: 24px;
+    height: 24px;
+
+}
+.welcome{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
 }
