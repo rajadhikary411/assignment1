@@ -175,10 +175,18 @@ margin-bottom: 20px;
     width: 410px;
     box-sizing: border-box;
     border-radius: 16px;
-    
-    background: rgba(84, 144, 245, 0.2);
     padding: 20px;
 }
+.card1{
+    background-color:rgba(84, 144, 245, 0.2) ;
+}
+.card2{
+    background-color:rgb(198, 228, 214) ;
+}
+.card3{
+    background-color: rgb(247, 235, 207);
+}
+
 .v-o-f-btn{
 width: 122px;
 height: 41px;
@@ -209,4 +217,118 @@ text-align: center;
 }
 .v-o-f-btn3:hover{
     background-color: rgb(194, 140, 13);
+}
+.quata{
+    margin-top: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+   
+
+    
+}
+.quata-photo{
+    background-image: url("./assets/quote-bg.png");
+    background-repeat: no-repeat;
+    width:1270px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 50px;
+    padding-top: 20px;
+
+}
+.dr{
+ color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.oponion{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.questions{
+ border-radius: 16px;
+ background: rgb(255, 255, 255);
+ padding: 32px;
+ border: 1px solid rgba(14, 14, 14, 0.15);
+
+}
+.table-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:rgb(198, 228, 214) ;
+
+}
+.div-text{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+table,td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 1253px;
+    border-collapse: collapse;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.big-td{
+    padding-right: 700px;
+}
+.btn-td1{
+    text-align: center;
+    padding-left: 100px;
+    
+}
+.btn-td{
+box-sizing: border-box;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+
+background: rgb(198, 228, 214);
+width: 152px;
+height: 44px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.btn-td:hover{
+    background-color: rgb(146, 232, 192);
+}
+.down-button{
+    height: 20px;
+    width: 20px;
+   
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down-btn{
+    padding-top: 5px;
+    padding-left: 5px;
 }
