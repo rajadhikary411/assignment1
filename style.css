@@ -63,9 +63,7 @@ text-align: left;
   margin-bottom: 100px;
   margin-top: 80px;
 }
-.img1{
 
-}
 
 .cont-title{
 padding: 20px;
@@ -152,7 +150,6 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 margin-bottom: 20px;
-
 }
 .text-2{
     margin-top: 30px;
@@ -380,4 +377,61 @@ text-align: left;
 }
 .glo-btn{
     margin-top: 30px;
+}
+.sate-head{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+.donate{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+width: 1100px;
+margin: 0 auto;
+}
+.justify{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+}
+.money{
+    display: flex;
+    width: 1050px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+.money-amount{
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+.money-heading{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.money-amount:hover{
+    background-color: rgb(198, 228, 214); 
+}
+.money-amount:active{
+    background-color: rgb(198, 228, 214); 
 }
