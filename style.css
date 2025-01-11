@@ -6,6 +6,7 @@
 body{
     margin-left: 100px;
     margin-right: 100px;
+    background-color: rgb(255, 255, 255);
 }
 .navber{
     display: flex;
@@ -129,8 +130,7 @@ padding: 20px;
     height: 250px;
     width: 350px;
     padding: 20px;
-
-   
+  
 }
 .h{
 color: rgba(14, 14, 14, 0.8);
@@ -153,4 +153,60 @@ letter-spacing: 0%;
 text-align: left;
 margin-bottom: 20px;
 
+}
+.text-2{
+    margin-top: 30px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.digital-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+   
+    width: 410px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    background: rgba(84, 144, 245, 0.2);
+    padding: 20px;
+}
+.v-o-f-btn{
+width: 122px;
+height: 41px;
+border-radius: 8px;
+border: none;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+.v-o-f-btn1{
+    background-color: rgb(84, 144, 245);
+}
+.v-o-f-btn1:hover{
+    background-color: rgb(50, 103, 195);
+}
+.v-o-f-btn2{
+    background: rgb(9, 161, 92);
+}
+.v-o-f-btn2:hover{
+    background-color: rgb(7, 107, 62);
+}
+.v-o-f-btn3{
+    background: rgb(255, 194, 57);
+}
+.v-o-f-btn3:hover{
+    background-color: rgb(194, 140, 13);
 }
