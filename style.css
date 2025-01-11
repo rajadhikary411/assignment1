@@ -6,7 +6,7 @@
 body{
     margin-left: 100px;
     margin-right: 100px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 243, 239);
 }
 .navber{
     display: flex;
@@ -251,19 +251,20 @@ text-align: left;
 .oponion{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
     margin-top: 40px;
     margin-bottom: 20px;
+    
 }
 .questions{
  border-radius: 16px;
  background: rgb(255, 255, 255);
  padding: 32px;
- border: 1px solid rgba(14, 14, 14, 0.15);
+ border: none;
 
 }
 .table-head{
@@ -295,7 +296,7 @@ table,td{
 }
 .btn-td1{
     text-align: center;
-    padding-left: 100px;
+    padding-left: 90px;
     
 }
 .btn-td{
@@ -304,7 +305,7 @@ border: 1px solid rgb(14, 14, 14);
 border-radius: 4px;
 
 background: rgb(198, 228, 214);
-width: 152px;
+width: 200px;
 height: 44px;
 color: rgb(14, 14, 14);
 font-family: Fira Sans;
@@ -331,4 +332,52 @@ button{
 .down-btn{
     padding-top: 5px;
     padding-left: 5px;
+}
+.recent{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.global-con{
+    border-radius: 24px;
+
+    background: rgb(255, 255, 255);
+    padding: 48px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.img-size{
+    border-radius: 24px;
+    height: 306px;
+    width: 408px;
+}
+.gloproimg{
+    margin-left: 32px;
+}
+.div12{
+    background-color: red;
+}
+.glo-btn1{
+    border-radius: 8px;
+    width: 139px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: rgb(0, 106, 80);
+    border: none;
+}
+.glo-btn1:hover{
+  background-color: rgb(3, 63, 49);
+}
+.glo-btn{
+    margin-top: 30px;
 }
